@@ -1,0 +1,21 @@
+<script src="./home.js"></script>
+
+<h2>Home Page</h2>
+<table>
+    <tr>
+        <td>Name</td>
+        <td><input type="text" id="txtName" /></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="details.html" onclick="setValue()">Visit Details</a>
+        </td>
+    </tr>
+</table>
+
+<script>
+    function setValue() {
+        var name = document.getElementById('txtName').value;
+        sessionStorage.setItem('v#name', name);
+    }
+</script>

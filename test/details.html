@@ -1,0 +1,16 @@
+<h2>Details Page</h2>
+<table>
+    <tr>
+        <td>Name</td>
+        <td><label id="lblName"></label></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="home.html">Back</a>
+        </td>
+    </tr>
+</table>
+<script>
+    var name = sessionStorage.getItem('v#name');
+    document.getElementById('lblName').innerHTML = name;
+</script>

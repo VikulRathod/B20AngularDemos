@@ -1,0 +1,13 @@
+var s1 = "100";
+console.log("s1 => type name : ".concat(typeof s1, " value : ").concat(s1));
+var i1 = s1;
+console.log("i1 => type name : ".concat(typeof i1, " value : ").concat(i1));
+var i2 = parseInt(s1);
+console.log("i2 => type name : ".concat(typeof i2, " value : ").concat(i2));
+var i3 = Number(s1);
+console.log("i3 => type name : ".concat(typeof i3, " value : ").concat(i3));
+var i4 = +(s1);
+console.log("i4 => type name : ".concat(typeof i4, " value : ").concat(i4));
+s1 = '';
+var b1 = Boolean(s1);
+console.log("b1 => type name : ".concat(typeof b1, " value : ").concat(b1));
